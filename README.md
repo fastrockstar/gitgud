@@ -1,5 +1,28 @@
 # Why good commit messages are important, or in more sophisticated terms: gitgud
-This repository contains a collection of guidelines and python scripts to build and maintain a cleaner git environment.
+This repository contains a collection of guidelines and python scripts to build and maintain a cleaner git environment. Well-crafted Git commit message are the best way to communicate context about a change to fellow developers (and indeed to their future selves, trust me ;)
+
+A diff will tell you what changed, but only the commit message can properly tell you why. Peter Hutterer makes this point well:
+"Re-establishing the context of a piece of code is wasteful. We can’t avoid it completely, so our efforts should go to reducing it [as much] as possible. Commit messages can do exactly that and as a result, a commit message shows whether a developer is a good collaborator."
+
+f you haven’t given much thought to what makes a great Git commit message, it may be the case that you haven’t spent much time using git log and related tools. There is a vicious cycle here: because the commit history is unstructured and inconsistent, one doesn’t spend much time using or taking care of it. And because it doesn’t get used or taken care of, it remains unstructured and inconsistent.
+
+But a well-cared for log is a beautiful and useful thing. git blame, revert, rebase, log, shortlog and other subcommands come to life. Reviewing others’ commits and pull requests becomes something worth doing, and suddenly can be done independently. Understanding why something happened months or years ago becomes not only possible but efficient.
+
+A project’s long-term success rests (among other things) on its maintainability, and a maintainer has few tools more powerful than his project’s log. It’s worth taking the time to learn how to care for one properly. What may be a hassle at first soon becomes habit, and eventually a source of pride and productivity for all involved.
+
+In this post, I am addressing just the most basic element of keeping a healthy commit history: how to write an individual commit message. There are other important practices like commit squashing that I am not addressing here. Perhaps I’ll do that in a subsequent post.
+
+Most programming languages have well-established conventions as to what constitutes idiomatic style, i.e. naming, formatting and so on. There are variations on these conventions, of course, but most developers agree that picking one and sticking to it is far better than the chaos that ensues when everybody does their own thing.
+
+A team’s approach to its commit log should be no different. In order to create a useful revision history, teams should first agree on a commit message convention that defines at least the following three things:
+
+Style. Markup syntax, wrap margins, grammar, capitalization, punctuation. Spell these things out, remove the guesswork, and make it all as simple as possible. The end result will be a remarkably consistent log that’s not only a pleasure to read but that actually does get read on a regular basis.
+
+Content. What kind of information should the body of the commit message (if any) contain? What should it not contain?
+
+Metadata. How should issue tracking IDs, pull request numbers, etc. be referenced?
+
+Fortunately, there are well-established conventions as to what makes an idiomatic Git commit message. Indeed, many of them are assumed in the way certain Git commands function. There’s nothing you need to re-invent. Just follow the seven rules below and you’re on your way to committing like a pro.
 
 ## The seven rules of a great Git commit message
 This section deals with the topic of how to compose great git commit mesages. There are seven simple rules based on the insert name here.
