@@ -1,5 +1,5 @@
 # Why good commit messages are important, or in more sophisticated terms: gitgud
-This repository contains a collection of guidelines and python scripts to build a cleaner git environment.
+This repository contains a collection of guidelines and python scripts to build and maintain a cleaner git environment.
 
 ## The seven rules of a great Git commit message
 This section deals with the topic of how to compose great git commit mesages. There are seven simple rules based on the insert name here.
