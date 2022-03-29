@@ -2,6 +2,7 @@
 This repository contains a collection of guidelines and python scripts to build and maintain a cleaner git environment. Well-crafted Git commit message are the best way to communicate context about a change to fellow developers (and indeed to their future selves, trust me ;)
 
 A diff will tell you what changed, but only the commit message can properly tell you why. Peter Hutterer makes this point well:
+
 "Re-establishing the context of a piece of code is wasteful. We can’t avoid it completely, so our efforts should go to reducing it [as much] as possible. Commit messages can do exactly that and as a result, a commit message shows whether a developer is a good collaborator."
 
 If you haven’t given much thought to what makes a great Git commit message, it may be the case that you haven’t spent much time using git log and related tools. There is a vicious cycle here: because the commit history is unstructured and inconsistent, one doesn’t spend much time using or taking care of it. And because it doesn’t get used or taken care of, it remains unstructured and inconsistent.
