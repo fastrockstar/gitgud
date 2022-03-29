@@ -17,11 +17,11 @@ Most programming languages have well-established conventions as to what constitu
 
 A team’s approach to its commit log should be no different. In order to create a useful revision history, teams should first agree on a commit message convention that defines at least the following three things:
 
-Style. Markup syntax, wrap margins, grammar, capitalization, punctuation. Spell these things out, remove the guesswork, and make it all as simple as possible. The end result will be a remarkably consistent log that’s not only a pleasure to read but that actually does get read on a regular basis.
+**Style:** Markup syntax, wrap margins, grammar, capitalization, punctuation. Spell these things out, remove the guesswork, and make it all as simple as possible. The end result will be a remarkably consistent log that’s not only a pleasure to read but that actually does get read on a regular basis.
 
-Content. What kind of information should the body of the commit message (if any) contain? What should it not contain?
+**Content**: What kind of information should the body of the commit message (if any) contain? What should it not contain?
 
-Metadata. How should issue tracking IDs, pull request numbers, etc. be referenced?
+**Metadata:** How should issue tracking IDs, pull request numbers, etc. be referenced?
 
 Fortunately, there are well-established conventions as to what makes an idiomatic Git commit message. Indeed, many of them are assumed in the way certain Git commands function. There’s nothing you need to re-invent. Just follow the seven rules below and you’re on your way to committing like a pro.
 
